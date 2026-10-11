@@ -1,0 +1,5 @@
+Model,CV AUROC,Test AUROC,Test AUPRC
+LogReg (Ridge),0.7904,0.7946,0.7757
+LogReg (Lasso),0.7904,0.7947,0.7759
+LogReg (Elastic net),0.7904,0.7947,0.7758
+XGBoost,0.8004,0.8036,0.7827

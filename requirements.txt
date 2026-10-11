@@ -1,0 +1,9 @@
+numpy
+pandas<3
+scipy
+scikit-learn>=1.8
+xgboost
+matplotlib
+joblib
+streamlit
+jupyter

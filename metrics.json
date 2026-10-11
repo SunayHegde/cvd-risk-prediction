@@ -1,0 +1,58 @@
+{
+ "LogReg (Ridge)": {
+  "cv_auroc": 0.7902,
+  "test_auroc": 0.7944,
+  "test_auprc": 0.7753,
+  "best_params": {
+   "clf__C": 0.01
+  }
+ },
+ "LogReg (Lasso)": {
+  "cv_auroc": 0.7904,
+  "test_auroc": 0.7947,
+  "test_auprc": 0.7758,
+  "best_params": {
+   "clf__C": 0.01
+  }
+ },
+ "LogReg (Elastic net)": {
+  "cv_auroc": 0.7903,
+  "test_auroc": 0.7945,
+  "test_auprc": 0.7756,
+  "best_params": {
+   "clf__C": 0.01
+  }
+ },
+ "XGBoost": {
+  "cv_auroc": 0.8004,
+  "test_auroc": 0.8036,
+  "test_auprc": 0.7827,
+  "best_params": {
+   "learning_rate": 0.05,
+   "max_depth": 4,
+   "reg_alpha": 0.5,
+   "reg_lambda": 0.5
+  }
+ },
+ "_best": {
+  "model": "XGBoost",
+  "threshold": 0.7956127524375916,
+  "sensitivity": 0.4277,
+  "specificity": 0.9239,
+  "accuracy": 0.6784,
+  "confusion": [
+   [
+    6406,
+    3885
+   ],
+   [
+    528,
+    2903
+   ]
+  ]
+ },
+ "_subgroups": {
+  "group=1": 0.8021,
+  "group=2": 0.8065
+ }
+}
