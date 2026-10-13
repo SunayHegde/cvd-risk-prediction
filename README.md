@@ -1,6 +1,6 @@
 # Cardiovascular Disease (CVD) Risk Prediction
 
-UE24CS352A Machine Learning Mini-Project | Team: [Sunay Hegde , PES1UG24AM903] and [Balla Santosh, PES1UG24AM063] | Problem No.: [14]
+UE24CS352A Machine Learning Mini-Project | Team: [Sunay Hegde , PES1UG24AM903] and [Balla Santhosh, PES1UG24AM063] | Problem No.: [80]
 
 Predicts whether a patient has cardiovascular disease from routine clinical measurements. Regularized logistic regression
 (Ridge, Lasso, Elastic net) is compared with XGBoost (Extreme Gradient Boosting), evaluated with AUROC (Area Under the ROC Curve),
